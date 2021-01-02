@@ -27,7 +27,7 @@ body {
   background-color: #9cc3d5ff;
   justify-content: center;
   justify-items: center;
-  border: 0.1em solid #0063b2ff;
+  border: 0.1em solid rgba(0, 0, 0, 0.15);
   border-radius: 1em;
 }
 
@@ -37,23 +37,24 @@ body {
 }
 
 .sl-text {
-  color: #0063b2ff;
+  color: rgba(0, 0, 0, 0.55);
 }
 .entry-text {
   float: left;
-  width: 60%;
+  width: 3em;
+  margin-right: 1em;
 }
 .go-button {
   float: right;
-  background-color: #0063b2ff;
+  background-color: rgba(0, 0, 0, 0.55);
   color: white;
   outline: none;
 }
 
 .value-text {
-  color: #0063b2ff;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .pyramid-text {
-  color: #0063b2ff;
+  color: rgba(0, 0, 0, 0.55);
 }
