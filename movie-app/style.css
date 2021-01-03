@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #1e203d;
+}
+
+header {
+  background-color: #373b69;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.search {
+  background-color: transparent;
+  color: #eee;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #1e203d;
+  font-family: inherit;
+  padding: 0.7rem;
+}
+
+.search:focus {
+  outline: none;
+  background-color: #1e203d;
+}
+
+.movie-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  width: 20rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  background-color: #373b69;
+  margin: 1rem;
+}
+
+.movie img {
+  max-width: 100%;
+}
+
+.movie-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #eee;
+  letter-spacing: 0.1rem;
+}
+
+.movie-info h3 {
+  margin: 0;
+}
+
+.movie-info span {
+  background-color: #1e203d;
+  padding: 0.3rem 0.6rem;
+  font-weight: bold;
+}
+
+.movie-info span.green {
+  color: green;
+}
+
+.movie-info span.orange {
+  color: orange;
+}
+.movie-info span {
+  color: rgb(153, 38, 38);
+}
